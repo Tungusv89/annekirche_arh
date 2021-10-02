@@ -1950,6 +1950,15 @@ nav ul ul {
 /* отображаем выпадающий список при наведении */
 
 nav ul li:hover>ul {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.8s;
+    display: inherit;
+    z-index: 1;
+}
+
+nav ul ul:hover {
     display: inherit;
     z-index: 1;
 }
@@ -1967,4 +1976,27 @@ nav ul ul li {
 nav ul ul li::marker,
 nav ul ul::marker {
     content: none;
+}
+
+nav img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+.nav__item {
+    position: relative;
+}
+
+.footer__social img:hover {
+    -webkit-transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg);
+    transition: 0.8s;
+}
+
+.footer .nav__item:hover {
+    box-shadow: 2px 2px 0px 1px lavender;
+    transition: 1s;
 }
