@@ -2000,3 +2000,8 @@ nav img:hover {
     box-shadow: 2px 2px 0px 1px lavender;
     transition: 1s;
 }
+
+.nav__item_active ul a {
+    color: #000;
+    font-weight: 400;
+}
