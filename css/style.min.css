@@ -866,7 +866,7 @@ template {
 .architect {
     position: relative;
     padding: 38px 0 100px 0;
-    max-width: 970px;
+    max-width: 1200px;
     margin: 0 auto;
     margin-top: 20px
 }
@@ -1068,7 +1068,7 @@ template {
 
 .btn__arch {
     position: absolute;
-    /* bottom: -5px; */
+    bottom: -64px;
     right: 0;
     width: 208px;
     height: 44px;
