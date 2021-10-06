@@ -883,7 +883,7 @@ template {
 
 .architect__info h2 {
     font-family: Gilroy;
-    font-size: 60px;
+    font-size: 41px;
     font-weight: 700;
     color: #351a4a
 }
@@ -2202,4 +2202,16 @@ nav img:hover {
     opacity: 0;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+}
+
+.architect .architect__main img {
+    width: 488px;
+    height: 557px;
+    margin: auto;
+}
+
+.builder .architect__main img {
+    width: 458px;
+    height: 436px;
+    margin: auto;
 }
