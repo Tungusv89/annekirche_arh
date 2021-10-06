@@ -893,7 +893,8 @@ template {
     font-size: 30px;
     line-height: 40px;
     font-weight: 400;
-    color: #000
+    color: #000;
+    margin-right: 100px;
 }
 
 .architect__info_first {
@@ -1025,7 +1026,7 @@ template {
 
 .builder__content {
     position: relative;
-    max-width: 970px;
+    max-width: 1060px;
     margin: 0 auto
 }
 
@@ -2214,4 +2215,9 @@ nav img:hover {
     width: 458px;
     height: 436px;
     margin: auto;
+}
+
+.builder .builder__img_kirche {
+    width: 392px;
+    height: 394px;
 }
