@@ -1068,7 +1068,7 @@ template {
 
 .btn__arch {
     position: absolute;
-    bottom: -5px;
+    /* bottom: -5px; */
     right: 0;
     width: 208px;
     height: 44px;
