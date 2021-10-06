@@ -367,7 +367,7 @@ template {
 
 .nav {
     position: relative;
-    max-width: 1042px;
+    max-width: 970px;
     height: 271px;
     margin: 0 auto;
     padding: 31px 0 34px 0;
@@ -377,7 +377,7 @@ template {
 .nav__list {
     display: flex;
     justify-content: space-around;
-    max-width: 1042px;
+    max-width: 970px;
     margin: 0 auto;
     margin-top: 38px;
     list-style-type: none
@@ -418,18 +418,17 @@ template {
 
 .promo {
     position: relative;
-    padding: 110px 0 268px 0;
-    min-height: 907px;
-    background: url(../img/bg/main_bg.jpg) center center/cover no-repeat
+    padding: 80px 0 120px 0;
+    /* min-height: 907px; */
+    background: url(../img/bg/main_bg.jpg) center center/cover no-repeat;
 }
 
 .promo__descr {
     font-family: Gilroy;
-    font-size: 72px;
+    font-size: 54px;
     line-height: 80px;
     font-weight: 400;
     color: #fff;
-    margin-top: 54px;
     text-align: center
 }
 
@@ -457,14 +456,13 @@ template {
 }
 
 .promo_history {
-    min-height: 909px;
     padding-bottom: 59px;
     background: 0 0;
     background: url(../img/bg/hisrory_main_bg.jpg) center center/cover no-repeat
 }
 
 .promo_architect {
-    padding-bottom: 231px;
+    padding-bottom: 120px;
     margin-top: 8px;
     background: url(../img/bg/layers.png) center center/cover no-repeat
 }
@@ -474,7 +472,7 @@ template {
 }
 
 .promo .arrow {
-    margin-top: 133px;
+    margin-top: 80px;
     text-align: center
 }
 
@@ -503,7 +501,7 @@ template {
 
 .title {
     font-family: Gilroy;
-    font-size: 180px;
+    font-size: 100px;
     font-weight: 700;
     color: #fff;
     text-align: center
@@ -552,7 +550,7 @@ template {
 }
 
 .about__content {
-    max-width: 1332px;
+    max-width: 970px;
     margin: 0 auto
 }
 
@@ -578,8 +576,8 @@ template {
 
 .about__link img {
     display: block;
-    width: 321px;
-    height: 420px;
+    width: 310px;
+    height: 413px;
     transition: .5s all
 }
 
@@ -611,7 +609,7 @@ template {
     position: relative;
     display: flex;
     min-height: 1061px;
-    max-width: 1454px;
+    max-width: 1358px;
     margin: 0 auto
 }
 
@@ -708,7 +706,7 @@ template {
 }
 
 .history__content {
-    max-width: 1277px;
+    max-width: 1190px;
     margin: 0 auto
 }
 
@@ -868,7 +866,7 @@ template {
 .architect {
     position: relative;
     padding: 38px 0 100px 0;
-    max-width: 1221px;
+    max-width: 970px;
     margin: 0 auto;
     margin-top: 20px
 }
@@ -913,7 +911,8 @@ template {
     font-size: 30px;
     line-height: 40px;
     font-weight: 400;
-    color: #000
+    color: #000;
+    text-align: center;
 }
 
 .architect__addition_active {
@@ -1027,14 +1026,14 @@ template {
 
 .builder__content {
     position: relative;
-    max-width: 1221px;
+    max-width: 970px;
     margin: 0 auto
 }
 
 .builder_two {
     font-family: Gilroy;
     font-size: 60px;
-    line-height: 40px;
+    line-height: 60px;
     font-weight: 700;
     color: #3c234c;
     text-align: center
@@ -1136,7 +1135,7 @@ template {
 }
 
 .staff {
-    max-width: 1171px;
+    max-width: 970px;
     margin: 0 auto;
     padding: 76px 0 89px 0
 }
@@ -1150,14 +1149,14 @@ template {
 
 .staff__item {
     margin-bottom: 80px;
-    width: 575px;
+    width: 485px;
     display: flex;
     align-items: center
 }
 
 .staff__item img {
-    width: 290px;
-    height: 297px
+    width: 200px;
+    height: 205px;
 }
 
 .staff__info {
@@ -1213,7 +1212,7 @@ template {
 
 .events__content {
     position: relative;
-    max-width: 1370px;
+    max-width: 970px;
     margin: 0 auto;
     margin-top: 60px
 }
@@ -1342,7 +1341,7 @@ template {
         padding-right: 50px
     }
     .title {
-        font-size: 170px
+        font-size: 150px
     }
     .title_violet {
         font-size: 85px
