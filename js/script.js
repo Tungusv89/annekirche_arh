@@ -721,3 +721,13 @@ $(document).ready(function() {
 
 
 });
+
+$(document).ready(function() {
+    $('#fullpage').fullpage({
+
+
+    });
+
+    //methods
+    // $.fn.fullpage.setAllowScrolling(true);
+});
